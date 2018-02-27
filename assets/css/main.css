@@ -1,0 +1,45 @@
+/**
+ * Author: Daniel Lopes (https://github.com/danielorkae)
+ * Date: 02/26/2018
+ * Locale: Natal, Brazil
+ */
+
+section {
+  height: 100vh;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 10px 0 10px 0;
+}
+
+.cover {
+  height: 200px;
+  width: 100%;
+  background-color: #121;
+  background-image: url("http://zimasolutions.com/Images/pattern.png");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.profile {
+  position: relative;
+  top: -125px;
+}
+
+.profile > .photo {
+  height: 250px;
+  width: 250px;
+  background-image: url("../images/profile.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 125px;
+  border: #222 5px solid;
+  margin: 0 auto;
+}
+
+.profile > .details {
+}
